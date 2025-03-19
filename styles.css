@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('LakeBensis.jpg'); /* Replace 'your-image.jpg' with your image file name or URL */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-position: center center; /* Centers the image */
+    color: #333; /* Ensures text is readable against the background */
+}
+
+header {
+background-color: #00000080; /* Make textarea 50% transparent dark black */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+ background-color: #00000080; /* 50% transparent dark black */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li, td {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+h2 {
+    color: #FFFFFF;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+table th {
+background-color: #00000080; /* Make textarea 50% transparent dark black */
+    color: white;
+    font-weight: bold;
+}
+
+table tfoot td {
+    font-weight: bold;
+    background-color: #00000080; /* Make textarea 50% transparent dark black */
+}
+
+footer {
+    text-align: center;
+background-color: #00000080; /* Make textarea 50% transparent dark black */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
